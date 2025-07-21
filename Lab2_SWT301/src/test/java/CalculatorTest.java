@@ -17,8 +17,7 @@ class CalculatorTest {
 
     @Test
     void testDivideByZero() {
-        Exception e = assertThrows(ArithmeticException.class, ()
-                -> {
+        Exception e = assertThrows(ArithmeticException.class, () -> {
             calc.divide(10, 0);
         });
         assertEquals("cannot divide by zero", e.getMessage());

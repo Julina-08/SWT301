@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import Lab_2_SWT301.AccountService;
@@ -11,5 +12,10 @@ public class AccountServiceTest {
     void testRegisterAccount(String username, String password, String email, boolean expected) {
         boolean result = accountService.registerAccount(username, password, email);
         assertEquals(expected, result);
+    }
+
+    @Test
+    void testValidPassword() {
+        assertEquals(true, accountService.isValidPassword("password"));
     }
 }

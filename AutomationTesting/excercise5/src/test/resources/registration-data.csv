@@ -1,0 +1,14 @@
+firstName,lastName,email,gender,mobile,day,month,year,subjects,hobbies,address,state,city
+John,Doe,john.doe@example.com,Male,1234567890,15,May,1990,Maths,Sports,123 Main Street,NCR,Delhi
+Jane,Smith,jane.smith@example.com,Female,9876543210,25,June,1995,English,Reading,456 Oak Avenue,Uttar Pradesh,Agra
+Alex,Johnson,alex@example.com,Other,5556667777,10,January,2000,Computer Science,Music,789 Pine Road,Haryana,Karnal
+,,invalid@email,Male,12345,1,April,1985,Physics,Sports,Short Address,Rajasthan,Jaipur
+"   ",Smith,space.first@example.com,Female,9090909090,5,March,1992,Chemistry,Reading,With Space,NCR,Delhi
+John,"   ",space.last@example.com,Male,8080808080,12,July,1988,Biology,Music,Last Space,Haryana,Panipat
+"J@#$%",Doe,special.first@example.com,Other,7070707070,20,August,1997,Maths,Sports,Special Chars,Uttar Pradesh,Agra
+John,"D@#$%",special.last@example.com,Male,6060606060,18,September,1993,English,Reading,Special Chars,Rajasthan,Jaipur
+John123,Doe456,numeric.name@example.com,Female,5050505050,22,October,1991,Computer Science,Music,Numeric Name,Haryana,Karnal
+John,Doe,invalid-email,Male,4040404040,30,November,1989,Physics,Sports,Invalid Email,NCR,Delhi
+John,Doe,valid@email.com,Male,40404,30,November,1989,Physics,Sports,Short Mobile,Uttar Pradesh,Lucknow
+John,Doe,valid@email.com,Male,40404040404040404040,30,November,1989,Physics,Sports,Long Mobile,Rajasthan,Jaipur
+"                    ",Doe,long.space@email.com,Female,1212121212,2,December,1994,Chemistry,Reading,Long Space,Haryana,Panipat 
